@@ -1,6 +1,6 @@
 # FastSpiker: Enabling Fast Training for Spiking Neural Networks on Event-based Data Through Learning Rate Enhancements for Autonomous Embedded Systems
 
-Autonomous embedded systems (e.g., robots) typically necessitate intelligent computation with low power/energy processing for completing their tasks. Such requirements can be fulfilled by embodied neuromorphic intelligence with spiking neural networks (SNNs) because of their high learning quality (e.g., accuracy) and sparse computation. Here, the employment of event-based data is preferred to ensure seamless connectivity between input and processing parts. However, state-of-the-art SNNs still face a long training time to achieve high accuracy, thereby incurring high energy consumption and producing a high rate of carbon emission. Toward this, we propose FastSpiker, a novel methodology that enables fast SNN training on event-based data through learning rate enhancements targeting autonomous embedded systems. In FastSpiker, we first investigate the impact of different learning rate policies and their values, then select the ones that quickly offer high accuracy. Afterward, we explore different settings for the selected learning rate policies to find the appropriate policies through a statistical-based decision. Experimental results show that our FastSpiker offers up to l0.5x faster training time and up to 88.39% lower carbon emission to achieve higher or comparable accuracy to the state-of-the-art on the event-based automotive dataset (i.e., NCARS). In this manner, our Fast-Spiker methodology paves the way for green and sustainable computing in realizing embodied neuromorphic intelligence for autonomous embedded systems.
+FastSpiker is a novel methodology that enables fast SNN training on event-based data through learning rate enhancements targeting autonomous embedded systems. In FastSpiker, we explore different learning rate policies to find the appropriate policies. Experimental results show that our FastSpiker offers up to l0.5x faster training time and up to 88.39% lower carbon emission to achieve higher or comparable accuracy to the state-of-the-art on the event-based automotive dataset (i.e., NCARS). In this manner, our Fast-Spiker methodology paves the way for green and sustainable computing in realizing embodied neuromorphic intelligence for autonomous embedded systems.
 
 ## Create Conda Environment (if required): 
 ```
@@ -45,4 +45,5 @@ If you use FastSpiker in your research or find it useful, kindly cite the follow
 ```
 
 This work is inspired from the work of [SNN4Agents] (https://doi.org/10.3389/frobt.2024.1401677).
+
 
