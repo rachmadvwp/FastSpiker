@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=0 python3 main.py --filenet ./net/net_1_4a32c3z2a32c3z2a_10
 ```
 
 ## Citation
-If you use FastSpiker in your research or find it useful, kindly cite the following [article](https://www.frontiersin.org/article/10.3389/frobt.2024.1401677):
+If you use FastSpiker in your research or find it useful, kindly cite the following [article](https://doi.org/10.1109/ICARCV63323.2024.10821701):
 ```
 @INPROCEEDINGS{Ref_Bano_FastSpiker_ICARCV24,
   author={Bano, Iqra and Wicaksana Putra, Rachmad Vidya and Marchisio, Alberto and Shafique, Muhammad},
@@ -45,3 +45,4 @@ If you use FastSpiker in your research or find it useful, kindly cite the follow
 ```
 
 This work is inspired from the work of [SNN4Agents] (https://doi.org/10.3389/frobt.2024.1401677).
+
